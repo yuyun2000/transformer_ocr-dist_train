@@ -1,0 +1,3 @@
+基本transformer结构进行ocr，大部分是别人的代码，我主要加了一个多卡训练并验证可用原网页是https://github.com/datawhalechina/dive-into-cv-pytorch/tree/master/code/chapter06_transformer/6.2_recognition_by_transformer(online_dataset)
+其中vmodel是原本自己的实现，主要是用了huggingface上的预训练模型，但是数据量太少训练不出来，记录一下构造网络的方式
+# transformer_ocr-dist_train
